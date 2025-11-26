@@ -7,6 +7,4 @@ export class CreateEmpresaDto {
     @IsString({ message: 'O campo "nome" é inválido' })
     @Length(1, 50, { message: 'O campo "nome" deve conter entre 1 e 50 caracteres' })
     name: string
-
-    tenant_id: string
 }
